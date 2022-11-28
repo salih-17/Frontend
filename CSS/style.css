@@ -1,0 +1,28 @@
+
+
+
+/* Comments*/
+
+/*
+
+Selector == HTML Tag
+
+Rule -----> Selector -----> Declaration-----> Property and Value
+
+Selector {
+    Property: Value ;  (Declaration means) 
+    Property: Value ;
+    Property: Value ;
+    Property: Value ;
+}
+*/
+
+/* Background*/
+div {
+    color: red;    background-color: antiquewhite;
+}
+
+
+
+
+
