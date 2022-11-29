@@ -85,3 +85,29 @@ button{
 }
 
 
+
+
+/* Text properties */
+
+.Text{
+    
+    text-align: center;
+color:rgb(206, 15, 15) ;
+/* letter-spacing: 5px; */
+/* word-spacing: 10px; */
+line-height: 20px;
+text-decoration: wavy;
+
+}
+
+
+
+
+html{
+    direction: ltr;
+}
+
+
+h1{
+    text-transform: uppercase;
+}
