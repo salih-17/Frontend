@@ -18,11 +18,70 @@ Selector {
 */
 
 /* Background*/
-div {
-    color: red;    background-color: antiquewhite;
+/* background---> url---> no-repeat--->fixed---> 10px 10px */
+body {
+     /* color: red;    background-color: green ; */
+    /* color: red;    background-color: green ; */
+    /* height: 5000px;
+    background-image: url(images/image.jpg);
+
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top right; */
+
+    /* color: white;
+    
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed ; */
+
+
+
+}
+
+/* div{
+    background-image: url(images/image.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+     
+}
+ */
+
+.First{
+    color: white;
+    width: 200px;
+    min-width: 100px;
+    max-width: 150;
+    height:  200px;
+    background: rebeccapurple;
+}
+
+
+button{
+    min-width: 200 px;
+    background-color: blue;
+    color: white;
 }
 
 
 
+/*  Margin & padding and border and outline */
+
+
+.second{
+    color: white;
+    width: 200px;
+    min-width: 100px;
+    max-width: 150;
+    height:  200px;
+    background: rgb(110, 15, 206);
+    margin: 10px ;
+    padding:  10px;   
+    /* border: 2px dashed red;  */
+    border-bottom: 20px dashed blue;
+}
 
 
