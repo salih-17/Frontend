@@ -72,7 +72,7 @@ button{
 
 
 .second{
-    color: white;
+    color: black;
     width: 200px;
     min-width: 100px;
     max-width: 150;
@@ -81,7 +81,8 @@ button{
     margin: 10px ;
     padding:  10px;   
     /* border: 2px dashed red;  */
-    border-bottom: 20px dashed blue;
+    /* border-bottom: 20px dashed blue; */
+    overflow: auto ;
 }
 
 
@@ -111,3 +112,35 @@ html{
 h1{
     text-transform: uppercase;
 }
+
+
+/* Font */
+
+
+.Format{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+
+
+
+/*  List properery */
+
+ul {
+    text-align:  center;
+    list-style-type: disc;
+    list-style-position:inside
+     
+}
+
+
+
+
+
+
+
+
+
