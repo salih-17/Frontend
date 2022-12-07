@@ -112,9 +112,7 @@ body{
     transform: translate(-50% , -50%);
 }
 
-.exp2 {
 
-}
 
 /* .text1{
 
@@ -162,5 +160,20 @@ float: left;
 
 
 /* Opacity الشفافية */
+
+
+/* Nesting , Grouping */
+
+.parent .item {
+
+}
+
+
+
+/* Peseudo Classes [:hover  , :active] */
+
+/* 1:34:05 / 1:59:50
+
+ */
 
 
