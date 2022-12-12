@@ -10,12 +10,65 @@
 
 
 
-/* Attr Selector & Universal Selector */
+/* Attr Selector */
 input[type = "text"]{
 
     background-color: red;
 }
 
+/* Universal Selector   it's means select all itmes*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar */
+
+
+.navbar {
+
+    background :  #333;
+   
+}
+
+.navbar h2 {
+
+    font-size: 35px;
+    width: 10%;
+    
+    color: white;
+    float: left;
+}
+
+.navbar ul {
+    
+    color: antiquewhite;
+    list-style: none;
+}
 
 
 
+.navbar ul li {
+    display: inline-block;
+}
+
+
+.navbar ul li a {
+
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/* 16:30 / 1:08:18
+
+ */
