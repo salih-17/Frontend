@@ -11,10 +11,10 @@
 
 
 /* Attr Selector */
-input[type = "text"]{
+/* input[type = "text"]{
 
     background-color: red;
-}
+} */
 
 /* Universal Selector   it's means select all itmes*/
 *{
@@ -28,39 +28,59 @@ input[type = "text"]{
 
 .navbar {
 
-    background :  #333;
-   
-}
+    background :  #333;}
+
+
 
 .navbar h2 {
 
     font-size: 35px;
-    width: 10%;
-    
+    width: 20%;
+    padding: 5;
     color: white;
     float: left;
 }
 
-.navbar ul {
+.navbar > ul {
     
     color: antiquewhite;
     list-style: none;
+    width: 80%;
 }
 
 
 
-.navbar ul li {
+.navbar > ul li {
     display: inline-block;
+    width: 100px;
+
 }
 
 
-.navbar ul li a {
+.navbar  > ul li a {
 
-    color: aliceblue;
+    color: rgb(216, 20, 151);
     text-decoration: none;
-    padding: 15px;
+    padding: 20px;
     display: block;
 
+}
+
+/* Dropdown */
+
+.navbar > ul li {
+    position: relative;
+}
+
+
+.navbar > ul li ul {
+    position: absolute;
+    display: none;
+}
+
+/* لمن بشاور بحرك الموس على حرف الاي رح يطلع اليوال الي بعدو */
+.navbar  > ul li a:hover + ul {
+    display: block;
 }
 
 .clear {
@@ -68,7 +88,50 @@ input[type = "text"]{
 }
 
 
+/* Css form */
 
-/* 16:30 / 1:08:18
+
+form input , form select{
+margin: 20px;
+padding: 20px;
+display: block;
+width: 40%;
+}
+
+
+form input:focus{
+    background: lightblue;
+    border: 3px solid #555;
+}
+
+
+/* After and before */
+
+/* 
+
+ملاحظة لمن ما بحسن بحط طول و عرض بيكون العناصر اين لاين
+
+*/
+
+.ulitem{
+    padding: 20px;
+    list-style: none;
+}
+
+
+.ulitem li::before  {
+content: "";
+display: inline-block;
+width: 5px;
+height: 5px;
+background: red;
+margin-right: 10px;
+vertical-align: middle;
+} 
+
+
+
+
+/* 40:35 / 1:08:18
 
  */
