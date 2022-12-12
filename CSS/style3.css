@@ -1,0 +1,21 @@
+
+
+
+
+.test{
+
+    background-color:  red;
+
+}
+
+
+
+/* Attr Selector & Universal Selector */
+input[type = "text"]{
+
+    background-color: red;
+}
+
+
+
+
