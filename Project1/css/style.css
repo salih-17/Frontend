@@ -1,0 +1,48 @@
+
+/* Common */
+/* 
+
+-container
+- opacity hover
+- section header
+-  section padding
+- hover efeect1 (left to right )
+- hover effect2 (top to bottom)
+
+- Font used
+https://fontawesome.com/v4/get-started/
+
+- Downlaoad the font from google fonts
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   /* Css3 */ 
+}
+
+
+.container{
+    width: 80%;
+   margin: auto; /* لتوسيط عنصر بلوك */
+}
+
+
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+/* Header */
+
+.header{
+    background: gray;
+}
+
+
+
+
+
+
