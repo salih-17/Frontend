@@ -1,5 +1,27 @@
 
-/* Common */
+/* 
+    1- common styles
+    2- General styles
+    3- sections
+        3.0 Header section
+        3.1 Home section 
+        3.2 About section 
+        3.3 Portfolio section
+        3.4 Service section 
+        3.5 Price section 
+        3.6 Team section 
+        3.7 Blog page 
+        3.8 Contact section
+
+
+
+
+
+    */
+
+
+
+/* Common  syles*/
 /* 
 
 -container
@@ -35,14 +57,51 @@ body{
 }
 
 
+.clear {
+    clear: both;
+}
+
+
+
 /* Header */
 
 .header{
     background: gray;
 }
 
+.header .logo {
+    width: 40%;
+    float: left;      /* منشان تصير العناصر جنب بعضها */
+}
 
+.header .nav {
+    width: 60%;
+    float: left;/* منشان تصير العناصر جنب بعضها */
+    list-style: none;     /* بيشيل الدوائر من جنب الخيارات */
+}
 
+.header .nav li {
+    display: inline-block; /*  منشان تصير العناصر جنب بعضها و حطها ان لاين بلوك منشان يعطي العناصر طول و عرض*/
+}
+
+.header .nav li a {
+    color: white;
+     text-decoration:  none;      /* ازالة الخط من تحت كل وحدة */
+     display: block;    /* هنن عناصر ان لاين هي منشان تحويلون ل عناصر بلوك */
+     padding: 30px 15px ;
+}
+
+/* Home section */
+
+/* about section */
+
+/* portfolio section */
+/* service section */
+/* price section */
+/* team section */
+
+/* Blog page */
+/* contact section */
 
 
 
